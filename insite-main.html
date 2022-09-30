@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insite zadatak</title>
+    <link rel="stylesheet" href="InsiteCss.css" />
+    <script src="insiteJs.js"></script>
+  </head>
+  <body>
+    <table id="table">
+      <tr class="firstRow">
+        <td class="td"></td>
+        <td class="td">Ime i prezime</td>
+        <td class="td">OIB</td>
+        <td class="td">Datum rodjenja</td>
+        <td class="td"></td>
+      </tr>
+
+      <tr class="row">
+        <td class="td">1</td>
+        <td class="td">Filip Matkovic</td>
+        <td class="td">123456789</td>
+        <td class="td">10.06.1983.</td>
+        <td class="td">
+          <button class="popupBtn" onclick="openPopUp(0)">Otvori Pop Up</button>
+        </td>
+      </tr>
+
+      <tr class="row">
+        <td class="td">2</td>
+        <td class="td">Luka Josipovic</td>
+        <td class="td">123456978</td>
+        <td class="td">10.06.1983.</td>
+        <td class="td">
+          <button class="popupBtn" onclick="openPopUp(1)">Otvori Pop Up</button>
+        </td>
+      </tr>
+
+      <tr class="row">
+        <td class="td">3</td>
+        <td class="td">Darko Krofak</td>
+        <td class="td">12345</td>
+        <td class="td">01.01.2001.</td>
+        <td class="td">
+          <button class="popupBtn" onclick="openPopUp(2)">Otvori Pop Up</button>
+        </td>
+      </tr>
+
+      <tr class="row">
+        <td class="td">4</td>
+        <td class="td">Marko Markovic</td>
+        <td class="td">4567</td>
+        <td class="td">02.02.2001.</td>
+        <td class="td">
+          <button class="popupBtn" onclick="openPopUp(3)">Otvori Pop Up</button>
+        </td>
+      </tr>
+    </table>
+    <div id="bottomBtn">
+      <button class="moreBtn" onclick="moreData()">Jos osoba</button>
+      <button class="moreBtn" onclick="openAll()">Sve osobe</button>
+    </div>
+  </body>
+</html>
